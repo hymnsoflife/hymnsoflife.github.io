@@ -1,1 +1,1 @@
-hymnsoflife.github.io
+https://hymnsoflife.github.io/
