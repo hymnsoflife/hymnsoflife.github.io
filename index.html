@@ -1,15 +1,22 @@
+<html>
+    <body style="text-align: center; background-color: lightcoral;">
+
+        <img id="song" width="500px" src="" onerror="getSong()">
+
+    </body>
+
+    <script>
+        function getSong() {
+            var x = "https://raw.githubusercontent.com/Church-Life-Apps/Resources/master/resources/images/shl/SHL_";
+            var num = Math.floor(Math.random() * 533) + 1;  
+            var zeroFilled = ('000' + num).substr(-3)
+
+            var url = x + zeroFilled + ".png";
+
+            var image = document.getElementById("song");
+
+            image.src = url;
+        }
+    </script>
 
 <html>
-  <body>
-    
-    <h1>
-      Daniel's Website
-    </h1>
-    
-    
-    
-  
-  
-  </body>
-</html>
-
